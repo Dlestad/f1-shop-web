@@ -1,5 +1,4 @@
-body {background-color: #0A0010;
-    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%230A0010' cx='50' cy='0' r='50'/%3E%3Cg fill='%230d000f' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2310010f' cx='50' cy='100' r='50'/%3E%3Cg fill='%2312010e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2315020e' cx='50' cy='200' r='50'/%3E%3Cg fill='%2318020d' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%231b020d' cx='50' cy='300' r='50'/%3E%3Cg fill='%231e030c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2320030c' cx='50' cy='400' r='50'/%3E%3Cg fill='%2323040b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2326040b' cx='50' cy='500' r='50'/%3E%3Cg fill='%2329040a' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%232c0509' cx='50' cy='600' r='50'/%3E%3Cg fill='%232e0509' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23310608' cx='50' cy='700' r='50'/%3E%3Cg fill='%23340608' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23370607' cx='50' cy='800' r='50'/%3E%3Cg fill='%233a0707' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c0706' cx='50' cy='900' r='50'/%3E%3Cg fill='%233f0806' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23420805' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
+body {background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%230A0010' cx='50' cy='0' r='50'/%3E%3Cg fill='%230d000f' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2310010f' cx='50' cy='100' r='50'/%3E%3Cg fill='%2312010e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2315020e' cx='50' cy='200' r='50'/%3E%3Cg fill='%2318020d' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%231b020d' cx='50' cy='300' r='50'/%3E%3Cg fill='%231e030c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2320030c' cx='50' cy='400' r='50'/%3E%3Cg fill='%2323040b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2326040b' cx='50' cy='500' r='50'/%3E%3Cg fill='%2329040a' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%232c0509' cx='50' cy='600' r='50'/%3E%3Cg fill='%232e0509' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23310608' cx='50' cy='700' r='50'/%3E%3Cg fill='%23340608' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23370607' cx='50' cy='800' r='50'/%3E%3Cg fill='%233a0707' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c0706' cx='50' cy='900' r='50'/%3E%3Cg fill='%233f0806' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23420805' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
     background-attachment: fixed;
     background-size: contain;}
 
@@ -28,8 +27,7 @@ text-align: center;
 margin-top: 10px;}
 
 img {border:solid 5px;
-    color: #4d0606;
-    margin: auto;}
+    color: #4d0606;}
 
 .subtitulo-style{display: flex; justify-content: center;
     color: rgb(140, 8, 8);
@@ -65,8 +63,6 @@ button {font-size: 15px;
 p {color: antiquewhite;
     font-family: serif, Helvetica, sans-serif; 
     font-weight: bolder;}
-
-
 /*estilo links*/
 .links-style{flex-direction: row;
     text-decoration: none;
@@ -75,14 +71,11 @@ p {color: antiquewhite;
     color: blue;
     font-size: 20px;}
 
-    
 .formularios-style{margin: 0px;
     text-align: center;width: 350px; 
     background-color: rgb(183, 13, 13);
     padding: 10px;
     margin: auto;}
-
 /*diceño listas*/
-ul,ol {color:red}
-
-.Productos-styles
+ul,ol {color:rgb(255, 196, 0)}
+.carousel-caption {background-color: #4d0606;padding: 5px;;}
