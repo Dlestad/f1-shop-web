@@ -9,17 +9,17 @@ padding: 0px;}
 :hover{background-color: #d60b0b;}
 
 h1 {display: flex; justify-content: center;
-    color: rgb(140, 8, 8,0.95);
+    color: rgba(232, 95, 10, 0.95);
     font-family:serif,sans-serif;
-    font-size: 50px;
+    font-size: 70px;
     font-weight: bolder;}
 
 h2 {display: flex; justify-content: center;
-    color: rgb(140, 8, 8,0.95);
+    color: rgb(255, 196, 0);
     font-family:serif,sans-serif;
     font-size: 40px;
     font-weight: bolder;}
- h3 {color: #4d0606;
+ h3 {color:rgb(255, 196, 0);
 
     font-family: sans-serif;
     font-size: 25px;
@@ -30,7 +30,7 @@ img {border:solid 5px;
     color: #4d0606;}
 
 .subtitulo-style{display: flex; justify-content: center;
-    color: rgb(140, 8, 8);
+    color:rgb(255, 196, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;font-weight: bolder;}
 
@@ -60,15 +60,16 @@ button {font-size: 15px;
     border:solid ; 
     color: #4d0606;}
     
-p {color: antiquewhite;
+p {color: rgb(203, 164, 112);
     font-family: serif, Helvetica, sans-serif; 
-    font-weight: bolder;}
+    font-weight: bolder;
+font-size: 25px;}
 /*estilo links*/
 .links-style{flex-direction: row;
     text-decoration: none;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     text-align: center;
-    color: blue;
+    color: rgb(6, 6, 140);
     font-size: 20px;}
 
 .formularios-style{margin: 0px;
@@ -78,4 +79,4 @@ p {color: antiquewhite;
     margin: auto;}
 /*diceño listas*/
 ul,ol {color:rgb(255, 196, 0)}
-.carousel-caption {background-color: #4d0606;padding: 5px;;}
+.carousel-caption {background-color: #4d0606;padding: 5px;}
