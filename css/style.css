@@ -6,13 +6,22 @@ body {
 }
 
 /*sass*/
-/*Javi, esta variable te la hice de prueba, sacala si no te sirve*/
+
 /*Selector universal*/
 * {
   margin: 0px;
   padding: 0px;
 }
+/*estiloimagenes*/
+.imagen-wrap {
+  flex-wrap:wrap;
+}
 
+.paparulo {display: flex;
+  justify-content: center;
+  width: 50%;
+  
+}
 .nav-item:hover {
   background-color: #d60b0b;
 }
@@ -20,7 +29,7 @@ body {
 h1 {
   display: flex;
   justify-content: center;
-  color: violet;
+  color: rgb(229, 135, 13);
   font-family: serif, sans-serif;
   font-size: 70px;
   font-weight: bolder;
@@ -57,12 +66,6 @@ img {
   font-weight: bolder;
 }
 
-/*estilo de prueba imagenes*/
-section {
-  display: flex;
-  justify-content: center;
-}
-
 button {
   font-size: 15px;
   font-weight: bold;
@@ -70,12 +73,8 @@ button {
   border-radius: 10px;
   border: 2px, solid;
   box-shadow: 2px, 2px, 10px;
-  color: crimson;
+  color: rgb(92, 4, 4);
   background-color: rgb(192, 192, 192);
-}
-
-button:hover {
-  color: rgb(241, 120, 120);
 }
 
 /*estilo footer*/
@@ -107,15 +106,15 @@ p {
   text-decoration: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   text-align: center;
-  color: violet;
+  color: rgb(249, 182, 249);
   font-size: 20px;
 }
 
 .formularios-style {
   margin: 0px;
   text-align: center;
-  width: 350px;
-  background-color: rgb(183, 13, 13);
+  width: 400px;
+  background-color: rgb(155, 7, 7);
   padding: 10px;
   margin: auto;
 }
