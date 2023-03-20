@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="Es">
-<>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -13,7 +12,9 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>F1 shop</title>
     <link rel="shortcut icon" href="./recursos/logo/f1.png" type="image/x-icon">
-</head>
+    <!--AOS CSS-->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
 <!--html semantico-->
 <body>
     <!--enlaces relativos-->
@@ -25,7 +26,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="#">
-                <img src="./recursos/logo/f1.png" alt="logo-auto" width="80px">
+                <img  class="logo-nav" src="./recursos/logo/f1.png" alt="logo-auto" width="80px">
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -49,8 +50,9 @@
       </nav>
 
     <main> <!--enlace imagen logo-->
-        <img width=300px src="./recursos/imagen f1/F1-Logo-2018.jpg"alt="logo horizintal">
-        <h1>F1 Shop</h1>
+        <img class="logo" width=300px src="./recursos/imagen f1/F1-Logo-2018.jpg"alt="logo horizintal">
+        <!--Aos-animaciones-->
+        <h1 data-aos="fade-up-left">F1 Shop</h1>
     
         <h2 class="subtitulo-style">Venta de autos F1 usados</h2> 
     </main>
@@ -96,5 +98,9 @@
 </footer>
 <!--script -->
 <script src="./librerias/bootstrap-5.3.0-alpha1-dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
 </body>
 </html>

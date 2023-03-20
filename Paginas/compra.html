@@ -23,7 +23,7 @@
           </button>
           <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
             <a class="navbar-brand" href="../index.html">
-                <img src="../recursos/logo/f1.png" alt="logo-auto" width="80px">
+                <img  class="logo-nav" src="../recursos/logo/f1.png" alt="logo-auto" width="80px">
             </a>
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
@@ -47,35 +47,36 @@
       </nav>
     <!--enlace imagen logo-->
 
-    <img width=300px src="../recursos/imagen f1/F1-Logo-2018.jpg"alt="logo horizintal">
+    <img class="logo" width=300px src="../recursos/imagen f1/F1-Logo-2018.jpg"alt="logo horizintal">
     <h1>F1 Shop</h1>
     <h2>Compra</h2>
      <!--formulario de compra-->
   <form class="formularios-style" action="pocesar.php"method="post"> 
-<p><label for="Mail">Ingrese su Mail:</label>
-<input type="mail"name=Mail placeholder="coloque su mail"> </p>
-<p><Label for="contraseña">Ingrese su contraseña:</Label>
-<input type="password"name=Mail placeholder="ingrese su contraseña"> </p>
-<h3>Elija su modelo</h3>
-<label for="Modelo">Ferrari f1-75</label>
-<input type="radio" name="modelo" value="ferrari">
-<label for="Modelo">Mercedes w13</label>
-<input type="radio" name="modelo" value="mercedes">
-<label for="Modelo">Red Bull rb18</label>
-<input type="radio" name="modelo" value="red bull">
-<label for="Modelo">Alfa romeo-c42</label>
-<input type="radio" name="modelo" value="Alfa Romeo">
-<label for="Modelo">Mclaren-mcl36</label>
-<input type="radio" name="modelo" value="McLaren">
+    <p><label for="Mail">Ingrese su Mail:</label>
+    <input type="mail"name=Mail placeholder="coloque su mail"> </p>
+    <p><Label for="contraseña">Ingrese su contraseña:</Label>
+    <input type="password"name=Mail placeholder="ingrese su contraseña"> </p>
+
+    <h3>Elija su modelo</h3>
+    <label for="Modelo">Ferrari f1-75</label>
+    <input type="radio" name="modelo" value="ferrari">
+    <label for="Modelo">Mercedes w13</label>
+    <input type="radio" name="modelo" value="mercedes">
+    <label for="Modelo">Red Bull rb18</label>
+    <input type="radio" name="modelo" value="red bull">
+    <label for="Modelo">Alfa romeo-c42</label>
+    <input type="radio" name="modelo" value="Alfa Romeo">
+    <label for="Modelo">Mclaren-mcl36</label>
+    <input type="radio" name="modelo" value="McLaren">
 
 <!--empiesa input chekbox-->
 <h3>Elija cubiertas</h3>
-<label for="cubiertas">soft</label>
-<input type="checkbox" name="cuviertas" value="soft">
-<label for="cubiertas">medium</label>
-<input type="checkbox" name="cuviertas" value="medium">
-<label for="cubiertas">hard</label>
-<input type="checkbox" name="cuviertas" value="hard">
+    <label for="cubiertas">soft</label>
+    <input type="checkbox" name="cuviertas" value="soft">
+    <label for="cubiertas">medium</label>
+    <input type="checkbox" name="cuviertas" value="medium">
+    <label for="cubiertas">hard</label>
+    <input type="checkbox" name="cuviertas" value="hard">
 
 <!--menu desplegable-->
 <h3>Elija tamaño</h3>
@@ -83,7 +84,8 @@
   <option value="grande">Grande</option>
   <option value="mediano">Mediano</option>
   <option value="chico">Chico</option>
-</select><br>
+</select>
+<br>
 
 <button type="submit">Enviar</button>
 <button type="reset">Limpiar</button>

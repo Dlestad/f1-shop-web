@@ -1,0 +1,27 @@
+.logo:hover{
+    transform: scale(1.2,1.2);
+}
+.logo-nav {
+    animation-name: logo-nav;
+    animation-iteration-count:initial;
+    animation-timing-function: linear;
+    animation-duration: 1s;
+    animation-delay: 0s;
+}
+
+@keyframes logo-nav {
+    0%{ transform: rotate(180deg);
+        width: 110px;
+    }
+    25%{
+        width: 100px;
+    }
+    75% {
+        width: 90px;
+
+    }
+    100%{
+        width: 80px;
+    }
+    
+}
