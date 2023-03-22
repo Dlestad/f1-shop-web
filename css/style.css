@@ -39,7 +39,8 @@ button {
 }
 
 button:hover {
-  color: rgb(241, 120, 120);
+  color: rgb(85, 4, 4);
+  transform: scale(110%, 110%);
 }
 
 body {
@@ -153,4 +154,29 @@ ul, ol {
 .carousel-caption {
   background-color: #4d0606;
   padding: 5px;
+}
+
+br {
+  margin-bottom: 25px;
+}
+
+.imagen-wrap {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video {
+  max-width: 95%;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.paparulo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }/*# sourceMappingURL=style.css.map */

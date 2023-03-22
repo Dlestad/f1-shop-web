@@ -8,15 +8,14 @@ body {background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/
 $color-back:rgb(227, 151, 29);
 $color-font:  rgb(255, 196, 0);
 /*Selector universal*/
-*
-{
-    margin: 0px;
+*{  margin: 0px;
     padding: 0px;
 }
 
 .nav-item:hover{background-color: #d60b0b;}
 
-h1 {display: flex; justify-content: center;
+h1 {display: flex;
+    justify-content: center;
     color:$color-back;
     font-family:serif,sans-serif;
     font-size: 70px;
@@ -32,13 +31,14 @@ h2 {display: flex; justify-content: center;
 
     font-family: sans-serif;
     font-size: 25px;
-text-align: center;
-margin-top: 10px;}
+    text-align: center;
+    margin-top: 10px;}
 
 img {border:solid 5px;
     color: #4d0606;}
 
-.subtitulo-style{display: flex; justify-content: center;
+.subtitulo-style{display: flex; 
+    justify-content: center;
     color:rgb(255, 196, 0);
     font-family: Arial, Helvetica, sans-serif;
     font-size: 30px;font-weight: bolder;}
@@ -61,7 +61,7 @@ section{display: flex;
 p {color: rgb(203, 164, 112);
     font-family: serif, Helvetica, sans-serif; 
     font-weight: bolder;
-font-size: 25px;}
+    font-size: 25px;}
 /*estilo links*/
 .links-style{flex-direction: row;
     text-decoration: none;
@@ -71,10 +71,30 @@ font-size: 25px;}
     font-size: 20px;}
 
 .formularios-style{margin: 0px;
-    text-align: center;width: 350px; 
+    text-align: center;
+    width: 350px; 
     background-color: rgb(183, 13, 13);
     padding: 10px;
     margin: auto;}
 /*diceño listas*/
 ul,ol {color:rgb(255, 196, 0)}
 .carousel-caption {background-color: #4d0606;padding: 5px;}
+br{
+margin-bottom: 25px;
+}
+.imagen-wrap {
+    display: flex;
+    flex-wrap:wrap;
+}
+.video {
+    max-width: 95%;
+}
+.center{display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.paparulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
