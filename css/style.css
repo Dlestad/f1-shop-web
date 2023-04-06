@@ -152,6 +152,7 @@ p {
   font-size: 20px;
 }
 
+/*formularios*/
 .formularios-style {
   margin: 0px;
   text-align: center;
@@ -161,7 +162,7 @@ p {
   margin: auto;
 }
 
-/*diceño listas*/
+/*diseño listas*/
 ul, ol {
   color: rgb(255, 196, 0);
 }
@@ -194,4 +195,18 @@ br {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.prod {
+  font-family: serif, sans-serif;
+  font-size: 70px;
+  font-weight: bolder;
+  color: rgb(255, 196, 0);
+}
+
+.prod2 {
+  color: rgb(255, 196, 0);
+  font-family: serif, sans-serif;
+  font-size: 40px;
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */
