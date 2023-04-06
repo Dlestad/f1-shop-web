@@ -43,6 +43,35 @@ button:hover {
   transform: scale(110%, 110%);
 }
 
+/* Estilos del footer */
+footer {
+  background-color: #aa051b;
+  color: whitesmoke;
+  text-align: center;
+  padding: 20px;
+  font-size: 16px;
+  margin-top: 20px;
+}
+
+footer p {
+  margin: 0;
+  padding: 0;
+}
+
+footer a {
+  color: #d7d3d3;
+  text-decoration: none;
+}
+
+/* Estilos de los iconos de redes sociales */
+.social-media a {
+  margin: 0 10px;
+}
+
+.social-media i {
+  font-size: 24px;
+}
+
 body {
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 1000'%3E%3Cg %3E%3Ccircle fill='%230A0010' cx='50' cy='0' r='50'/%3E%3Cg fill='%230d000f' %3E%3Ccircle cx='0' cy='50' r='50'/%3E%3Ccircle cx='100' cy='50' r='50'/%3E%3C/g%3E%3Ccircle fill='%2310010f' cx='50' cy='100' r='50'/%3E%3Cg fill='%2312010e' %3E%3Ccircle cx='0' cy='150' r='50'/%3E%3Ccircle cx='100' cy='150' r='50'/%3E%3C/g%3E%3Ccircle fill='%2315020e' cx='50' cy='200' r='50'/%3E%3Cg fill='%2318020d' %3E%3Ccircle cx='0' cy='250' r='50'/%3E%3Ccircle cx='100' cy='250' r='50'/%3E%3C/g%3E%3Ccircle fill='%231b020d' cx='50' cy='300' r='50'/%3E%3Cg fill='%231e030c' %3E%3Ccircle cx='0' cy='350' r='50'/%3E%3Ccircle cx='100' cy='350' r='50'/%3E%3C/g%3E%3Ccircle fill='%2320030c' cx='50' cy='400' r='50'/%3E%3Cg fill='%2323040b' %3E%3Ccircle cx='0' cy='450' r='50'/%3E%3Ccircle cx='100' cy='450' r='50'/%3E%3C/g%3E%3Ccircle fill='%2326040b' cx='50' cy='500' r='50'/%3E%3Cg fill='%2329040a' %3E%3Ccircle cx='0' cy='550' r='50'/%3E%3Ccircle cx='100' cy='550' r='50'/%3E%3C/g%3E%3Ccircle fill='%232c0509' cx='50' cy='600' r='50'/%3E%3Cg fill='%232e0509' %3E%3Ccircle cx='0' cy='650' r='50'/%3E%3Ccircle cx='100' cy='650' r='50'/%3E%3C/g%3E%3Ccircle fill='%23310608' cx='50' cy='700' r='50'/%3E%3Cg fill='%23340608' %3E%3Ccircle cx='0' cy='750' r='50'/%3E%3Ccircle cx='100' cy='750' r='50'/%3E%3C/g%3E%3Ccircle fill='%23370607' cx='50' cy='800' r='50'/%3E%3Cg fill='%233a0707' %3E%3Ccircle cx='0' cy='850' r='50'/%3E%3Ccircle cx='100' cy='850' r='50'/%3E%3C/g%3E%3Ccircle fill='%233c0706' cx='50' cy='900' r='50'/%3E%3Cg fill='%233f0806' %3E%3Ccircle cx='0' cy='950' r='50'/%3E%3Ccircle cx='100' cy='950' r='50'/%3E%3C/g%3E%3Ccircle fill='%23420805' cx='50' cy='1000' r='50'/%3E%3C/g%3E%3C/svg%3E");
   background-attachment: fixed;
@@ -106,20 +135,6 @@ section {
   justify-content: center;
 }
 
-/*estilo footer*/
-.footer-style {
-  font-size: 15px;
-  color: blueviolet;
-  font-family: serif, sans-serif, helvetica, Courier, monospace;
-  color: rgb(182, 59, 25);
-  padding: 3px;
-  background-color: #bd0909;
-  display: flex;
-  justify-content: end;
-  border: solid;
-  color: #4d0606;
-}
-
 p {
   color: rgb(203, 164, 112);
   font-family: serif, Helvetica, sans-serif;
@@ -133,7 +148,7 @@ p {
   text-decoration: none;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Verdana, sans-serif;
   text-align: center;
-  color: rgb(227, 151, 29);
+  color: rgb(2, 2, 221);
   font-size: 20px;
 }
 
